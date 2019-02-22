@@ -73,11 +73,39 @@ TDV.PlayerAPI.defineScript({ "definitions": [
  {
   "viewerArea": "this.MainViewer",
   "class": "PanoramaPlayer",
+  "id": "MainViewerPanoramaPlayer",
   "touchControlMode": "drag_rotation",
   "gyroscopeVerticalDraggingEnabled": true,
   "displayPlaybackBar": true,
-  "id": "MainViewerPanoramaPlayer",
-  "mouseControlMode": "drag_acceleration"
+  "mouseControlMode": "drag_acceleration",
+  "buttonCardboardView": {
+   "shadow": false,
+   "minHeight": 1,
+   "propagateClick": false,
+   "paddingTop": 0,
+   "width": 56,
+   "id": "IconButton_02BB7201_1482_5529_4195_94523B94CFC2",
+   "mode": "push",
+   "class": "IconButton",
+   "paddingRight": 0,
+   "minWidth": 1,
+   "transparencyActive": false,
+   "paddingLeft": 0,
+   "height": 55,
+   "horizontalAlign": "center",
+   "paddingBottom": 0,
+   "verticalAlign": "middle",
+   "maxWidth": 56,
+   "borderRadius": 0,
+   "iconURL": "skin/IconButton_02BB7201_1482_5529_4195_94523B94CFC2.png",
+   "maxHeight": 55,
+   "cursor": "hand",
+   "data": {
+    "name": "IconButton9346"
+   },
+   "backgroundOpacity": 0,
+   "borderSize": 0
+  }
  },
  {
   "class": "PanoramaCamera",
@@ -716,7 +744,8 @@ TDV.PlayerAPI.defineScript({ "definitions": [
     "itemThumbnailOpacity": 1,
     "class": "ThumbnailList",
     "rollOverItemLabelFontColor": "#0000FF"
-   }
+   },
+   "this.IconButton_02BB7201_1482_5529_4195_94523B94CFC2"
   ],
   "scrollBarVisible": "rollOver",
   "layout": "horizontal",
