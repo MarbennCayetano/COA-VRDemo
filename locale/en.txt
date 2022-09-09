@@ -1,0 +1,21 @@
+#: locale=en
+
+## Media
+
+### Title
+panorama_06E8B3A5_0C8E_FB43_41A1_CC8D44D5E895.label = Millennium Cave 1
+panorama_0569C7D0_0C8E_5B27_41A5_FF2568038FE6.label = Millennium Cave 2
+panorama_056E9D7F_0C8E_2FD9_4177_9DA3E4E40C65.label = Millennium Cave 3
+panorama_069182CE_0C81_F53B_418C_4162605B64D5.label = Millennium Cave 4
+
+## Skin
+
+### Label
+Label_017A3ED1_0C81_ED29_41A3_A9E6A945E5C8.text = City of Austin - VR Headset Demonstrator (Stereoscopic)
+
+## Tour
+
+### Description
+
+### Title
+tour.name = COA-VRDemo
